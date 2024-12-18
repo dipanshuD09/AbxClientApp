@@ -1,0 +1,37 @@
+# Ignore build output directories
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# .NET specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore global tool config files
+global.json
+output.json
+
+# Ignore the project lock file
+project.lock.json
+project.fragment.lock.json
+
+# Ignore the NuGet package files
+*.nupkg
+*.snupkg
+
+# Ignore the NuGet package cache
+.nuget/
+
+# Ignore ASP.NET Core logs
+logs/
+
+# Ignore temporary files and directories
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
